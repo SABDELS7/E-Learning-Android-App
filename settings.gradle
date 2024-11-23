@@ -15,5 +15,16 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "E Learning"
+//dependencyResolutionManagement {
+    //repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    //repositories {
+        //mavenCentral()
+        //google()
+        // Add other repositories here if needed
+    //}
+//}
+
+
+rootProject.name = "E-Learning"
+include (":app")
 include ':app'
